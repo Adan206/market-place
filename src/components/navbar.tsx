@@ -48,8 +48,17 @@ export function NavBar() {
               </a>
             </li>
             <li>
+              <a
+                href="/sell-an-item"
+                className="block rounded bg-blue-700 py-2 pl-3 pr-4 text-white dark:text-white md:bg-transparent md:p-0 md:text-blue-700 md:dark:text-blue-500"
+                aria-current="page"
+              >
+                Sell An Item
+              </a>
+            </li>
+            <li>
               <SignInButton>
-                <span className="text-dark cursor-pointer hover:text-blue-500">
+                <span className="text-dark cursor-pointer text-black hover:text-blue-700">
                   Sign in
                 </span>
               </SignInButton>
